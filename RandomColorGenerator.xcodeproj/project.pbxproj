@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E7D030172B669CC30013AF4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D030162B669CC30013AF4D /* AppDelegate.swift */; };
 		E7D030192B669CC30013AF4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D030182B669CC30013AF4D /* SceneDelegate.swift */; };
-		E7D0301B2B669CC30013AF4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0301A2B669CC30013AF4D /* ViewController.swift */; };
 		E7D0301E2B669CC30013AF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D0301C2B669CC30013AF4D /* Main.storyboard */; };
 		E7D030202B669CC40013AF4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D0301F2B669CC40013AF4D /* Assets.xcassets */; };
 		E7D030232B669CC40013AF4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D030212B669CC40013AF4D /* LaunchScreen.storyboard */; };
+		E7D0302D2B66A3F40013AF4D /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0302C2B66A3F40013AF4D /* ColorsTableVC.swift */; };
+		E7D0302F2B66A6BC0013AF4D /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0302E2B66A6BC0013AF4D /* ColorsDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7D030132B669CC30013AF4D /* RandomColorGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColorGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D030162B669CC30013AF4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7D030182B669CC30013AF4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E7D0301A2B669CC30013AF4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7D0301D2B669CC30013AF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7D0301F2B669CC40013AF4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7D030222B669CC40013AF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7D030242B669CC40013AF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D0302C2B66A3F40013AF4D /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
+		E7D0302E2B66A6BC0013AF4D /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				E7D030162B669CC30013AF4D /* AppDelegate.swift */,
 				E7D030182B669CC30013AF4D /* SceneDelegate.swift */,
-				E7D0301A2B669CC30013AF4D /* ViewController.swift */,
+				E7D0302C2B66A3F40013AF4D /* ColorsTableVC.swift */,
+				E7D0302E2B66A6BC0013AF4D /* ColorsDetailVC.swift */,
 				E7D0301C2B669CC30013AF4D /* Main.storyboard */,
 				E7D0301F2B669CC40013AF4D /* Assets.xcassets */,
 				E7D030212B669CC40013AF4D /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D0301B2B669CC30013AF4D /* ViewController.swift in Sources */,
+				E7D0302D2B66A3F40013AF4D /* ColorsTableVC.swift in Sources */,
+				E7D0302F2B66A6BC0013AF4D /* ColorsDetailVC.swift in Sources */,
 				E7D030172B669CC30013AF4D /* AppDelegate.swift in Sources */,
 				E7D030192B669CC30013AF4D /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T94K6M3PBU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RandomColorGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T94K6M3PBU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RandomColorGenerator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
