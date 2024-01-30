@@ -32,6 +32,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="Ef5-br-TvW" id="ZNR-vK-IdP"/>
+                                    <outlet property="delegate" destination="Ef5-br-TvW" id="FXR-v4-w7S"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -46,7 +47,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Colors" id="G32-6m-nqU"/>
                     <connections>
-                        <segue destination="F1w-iH-4GV" kind="show" identifier="ToColorsDetailVC" id="htS-NA-bsZ"/>
+                        <segue destination="7Wp-ma-DVx" kind="show" identifier="ToColorsDetailVC" id="Url-Mr-a9M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1hN-0L-ejv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -54,20 +55,20 @@
             <point key="canvasLocation" x="1295.6521739130435" y="-94.419642857142847"/>
         </scene>
         <!--Colors DetailVC-->
-        <scene sceneID="6KI-M5-jOn">
+        <scene sceneID="Kx3-wq-i1m">
             <objects>
-                <viewController id="F1w-iH-4GV" customClass="ColorsDetailVC" customModule="RandomColorGenerator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pTP-j5-uQ5">
+                <viewController id="7Wp-ma-DVx" customClass="ColorsDetailVC" customModule="RandomColorGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2J-WJ-DnT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="AAQ-ag-a0d"/>
+                        <viewLayoutGuide key="safeArea" id="lmE-8a-Al4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dkc-gy-kgf"/>
+                    <navigationItem key="navigationItem" id="7sQ-qf-ufP"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W28-zL-p3A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lqa-gj-jkM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2133" y="-94"/>
+            <point key="canvasLocation" x="2174" y="-94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6pG-eJ-pjw">

@@ -14,9 +14,9 @@ class ColorsTableVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         addRandomColors()
-        // Do any additional setup after loading the view.
+      
     }
-   
+//   
     func addRandomColors() {
         for _ in 1..<50 {
             colors.append(createRandomColor())
@@ -29,7 +29,10 @@ class ColorsTableVC: UIViewController {
                                   alpha: 1)
         return randomColor
     }
-
+    
+    
+    
+    
 }
 
 extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
@@ -48,4 +51,6 @@ extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "ToColorsDetailVC", sender: nil)
     }
+    
+    
 }
